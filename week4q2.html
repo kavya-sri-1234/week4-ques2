@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: lavenderblush;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div>2</div>
+  <div>0</div>
+  <div>0</div>  
+  <div>6</div>
+  <div>0</div>
+  <div>8</div>  
+  <div>5</div>
+  
+</div>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Question 2
+        </title>
+        <style>
+           .lcs{
+                font-family: lucida bright;
+           }
+           ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+li:last-child {
+  flex-grow: 10;
+}
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+@media (max-aspect-ratio: 1/1) {
+  li {
+    height: 30vh;
+  }
+}
+@media (max-height: 480px) {
+  li {
+    height: 80vh;
+  }
+}
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul {
+    flex-direction: row;
+  }
+
+  li {
+    height: auto;
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+    </style>
+    </head>
+    <body>
+        <h1 class = "lcs">Flex using images..</h1>
+        <ul>
+            <li>
+                <img src="https://cdn.pixabay.com/photo/2019/11/20/05/52/field-4639180_1280.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://i.pinimg.com/originals/e3/1f/7b/e31f7b813ab030724d0ba168cdc9a686.jpg " alt="">
+            </li>
+            <li>
+                <img src="https://www.setaswall.com/wp-content/uploads/2018/09/Greenery-Village-Nature-View.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFQZINqKuie5rz-1TLKqE2w3M7nlWzV9c39nTMC55bIAcCIKVIjU8N0v50W-qn4DNkgvo&usqp=CAU " alt="">
+            </li>
+            <li>
+                <img src="http://3.bp.blogspot.com/-24Q83sX7oTk/VhTXpGklc-I/AAAAAAAAeR0/X9RSIsrhlVE/s1600/mountain-village-nature-landscape-view-wallpap-4531-wallpaper.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsJCDtgZ42wk0GxpsYpTBRVQ5f9g6JOiEYKQ&usqp=CAU" alt="">
+            </li>
+            <li>
+                <img src="https://www.maxpixel.net/static/photo/1x/Nature-Aisa-Fishermen-Village-Thailand-Man-489744.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://www.razaqvance.com/wp-content/uploads/2013/12/FINE-ART-3.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://i.pinimg.com/originals/e2/d5/30/e2d530fcfac4e6ea8240556e35cbb551.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://previews.123rf.com/images/faridaridhwan/faridaridhwan2008/faridaridhwan200800006/154285924-village-s-kids-jump-and-play-splashing-water-in-the-river.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://i.ytimg.com/vi/oq6b-Ksx1uM/maxresdefault.jpg" alt="">
+            </li>
+            <li>
+                <img src="https://w0.peakpx.com/wallpaper/813/781/HD-wallpaper-republic-day-august-15-flag-dom-independence-day-india-indian-flag-nature-triranga.jpg" alt="">
+            </li>
+            
+           
+          
+        </ul>
+        </p>
+    </body>
+</html>
+
+
+</body>
+</html>
